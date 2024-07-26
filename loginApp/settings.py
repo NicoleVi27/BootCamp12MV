@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'accounts.apps.AccountsConfig', 
-    'appName',#ADD despliegue VERCEL
+    'loginApp',#ADD despliegue VERCEL
 ]
 
 MIDDLEWARE = [
@@ -81,8 +81,7 @@ TEMPLATES = [
     },
 ]
 
-#WSGI_APPLICATION = 'loginApp.wsgi.application'
-WSGI_APPLICATION = 'ProjectName.wsgi.app' #ADD despliegue VERCEL
+WSGI_APPLICATION = 'loginApp.wsgi.application' #ADD despliegue VERCEL
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
